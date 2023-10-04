@@ -1,0 +1,42 @@
+/backend-app/node_modules
+/backend-app/public/build
+/backend-app/public/hot
+/backend-app/public/storage
+/backend-app/storage/*.key
+/backend-app/vendor
+/backend-app/.env
+/backend-app/.env.backup
+/backend-app/.env.production
+/backend-app/.phpunit.result.cache
+/backend-app/Homestead.json
+/backend-app/Homestead.yaml
+/backend-app/auth.json
+/backend-app/npm-debug.log
+/backend-app/yarn-error.log
+/backend-app/.fleet
+/backend-app/.idea
+/backend-app/.vscode
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend-app/node_modules
+/frontend-app/.pnp
+/frontend-app/.pnp.js
+
+# testing
+/frontend-app/coverage
+
+# production
+/frontend-app/build
+
+# misc
+/frontend-app/.DS_Store
+/frontend-app/.env.local
+/frontend-app/.env.development.local
+/frontend-app/.env.test.local
+/frontend-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
